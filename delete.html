@@ -83,6 +83,7 @@
                                             if(answer){
                                               db.collection("notebook").doc(myData.Code).delete().then(() => {
                                               console.log("Document successfully deleted!"+ " " + myData.Code + " "+ myData.Name);
+                                              window.location.reload()
                                                 }).catch((error) => {
                                                     console.error("Error removing document: ", error);
                                                 });
@@ -114,6 +115,7 @@
                                             if(answer){
                                             db.collection("pens").doc(myData.Code).delete().then(() => {
                                               console.log("Document successfully deleted!" + " "+ myData.Code + " " + myData.Name);
+                                              window.location.reload()
                                             }).catch((error) => {
                                                 console.error("Error removing document: ", error);
                                             });
@@ -147,6 +149,7 @@
                                             if(answer){
                                             db.collection("cholder").doc(myData.Code).delete().then(() => {
                                               console.log("Document successfully deleted!" + " "+ myData.Code + " " + myData.Name);
+                                              window.location.reload()
                                             }).catch((error) => {
                                                 console.error("Error removing document: ", error);
                                             });
@@ -180,6 +183,7 @@
                                             if(answer){
                                             db.collection("mholder").doc(myData.Code).delete().then(() => {
                                               console.log("Document successfully deleted!" + " "+ myData.Code + " " + myData.Name);
+                                              window.location.reload()
                                             }).catch((error) => {
                                                 console.error("Error removing document: ", error);
                                             });
@@ -212,6 +216,7 @@
                                             if(answer){
                                             db.collection("planner").doc(myData.Code).delete().then(() => {
                                               console.log("Document successfully deleted!" + " "+ myData.Code + " " + myData.Name);
+                                              window.location.reload()
                                             }).catch((error) => {
                                                 console.error("Error removing document: ", error);
                                             });
@@ -245,6 +250,7 @@
                                             if(answer){
                                             db.collection("coaster").doc(myData.Code).delete().then(() => {
                                               console.log("Document successfully deleted!" + " "+ myData.Code + " " + myData.Name);
+                                              window.location.reload()
                                             }).catch((error) => {
                                                 console.error("Error removing document: ", error);
                                             });
@@ -278,6 +284,7 @@
                                             if(answer){
                                             db.collection("keychains").doc(myData.Code).delete().then(() => {
                                               console.log("Document successfully deleted!" + " "+ myData.Code + " " + myData.Name);
+                                              window.location.reload()
                                             }).catch((error) => {
                                                 console.error("Error removing document: ", error);
                                             });
@@ -310,6 +317,7 @@
                                             if(answer){
                                             db.collection("others").doc(myData.Code).delete().then(() => {
                                               console.log("Document successfully deleted!" + " "+ myData.Code + " " + myData.Name);
+                                              window.location.reload()
                                             }).catch((error) => {
                                                 console.error("Error removing document: ", error);
                                             });
