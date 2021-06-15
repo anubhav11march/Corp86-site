@@ -158,6 +158,18 @@ a {
   .site-footer ul li {
     margin-bottom: 10px; }
 
+    .height-control{
+      height:17.5em;
+      display:flex;
+      align-items: center;
+      /* text-align: center; */
+      /* justify-content: center; */
+      padding-top:5em;
+      padding-bottom:5em;
+      padding-left:1em;
+      padding-right:1em;
+    }
+
 .bg-text-line {
   display: inline;
   background: #000;
