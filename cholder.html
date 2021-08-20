@@ -375,7 +375,9 @@
         product.id = 'product';
         product.innerHTML = `<div class="media-image">
               <a href="product.html?item=cholder?=${ myData.Code }">
-                <img src="${ myData.imgSrc }" alt="Image" class="img-fluid">
+                <div class='height-control'>
+                  <img src="${ myData.imgSrc }" alt="Image" class="img-fluid">
+                </div>
               </a>
               <div class="media-image-body">
                 <h2 class="font-secondary text-uppercase">${ myData.Name }</h2>
