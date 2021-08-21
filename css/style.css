@@ -165,7 +165,7 @@ h5,
 }
 @media (min-width: 768px) {
 	.site-section {
-		padding: 7em 0;
+		/* padding: 7em 0; */
 	}
 }
 .site-section.site-section-sm {
@@ -1997,7 +1997,7 @@ width: auto;
 	padding: 30px;
 	-webkit-box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.2);
-	max-height: 10rem;
+	/* max-height: 10rem; */
 }
 
 .media-image h2 {
